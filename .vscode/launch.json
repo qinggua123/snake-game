@@ -1,0 +1,38 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "🐍 Python: 贪吃蛇",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "python": "python3",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            }
+        },
+        {
+            "name": "🐍 Python: 贪吃蛇 (Debug 模式)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/snake_debug.py",
+            "console": "integratedTerminal",
+            "python": "python3",
+            "args": ["--debug"],
+            "cwd": "${workspaceFolder}",
+            "justMyCode": false
+        },
+        {
+            "name": "🐍 Python: 当前文件",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "python": "python3",
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
